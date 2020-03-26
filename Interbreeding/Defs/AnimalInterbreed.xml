@@ -1,0 +1,12 @@
+<Defs>
+	<ThinkTreeDef>
+		<defName>AnimalInterbreed</defName>
+		<insertTag>Animal_PreMain</insertTag>
+		<insertPriority>50</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="JobGiver_Interbreed" />
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+</Defs>

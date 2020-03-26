@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Wild Breeding</li>
+		</mods>
+		<match>
+			<success>Never</success> <!--Use Interbreeding or Wild Breeding, but not both!-->
+		</match>
+	</Operation>
+</Patch>
