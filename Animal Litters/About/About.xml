@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Bigger Litters and More Eggs</name>
+	<author>Moogie</author>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<url></url>
+	<packageId>moogie.biggerlitters</packageId>
+	<description><![CDATA[<size=20>What This Does</size>
+	
+This mod adjusts the min/max and average sizes of animal litters and egg clutches, allowing for more offspring as a result of each pregnancy. It does not change how long each pregnancy takes, and it does NOT adjust humanoid/pawn pregnancies in any way.
+
+Each animal species has been uniquely tweaked based on their real-world values, adjusted down in some cases where too big a litter/clutch size would be overwhelming in game terms. For example, did you know that Cobras lay on average between 14-24 eggs?! Imagine that many snakes slithering around your map! There'd be no room for anything else. So, I've taken some authoritative liberties with these values to keep them within reasonable standards.
+
+Not all animals were tweaked. Only those where it made sense, subjectively speaking, to do so.
+
+While I recommend using this mod in conjunction with my other mod, Interbreeding (which allows wild animals to breed, both with each other and with your livestock), do be warned that this can lead to rampant animal overpopulation! Smart hunting countermeasures will be key, and a spay/neuter mod such as <color=#1a8bffff>Neuter</color> by Syrchalis will prevent your livestock population exploding out of control.
+
+]]>
+</description>
+</ModMetaData>
