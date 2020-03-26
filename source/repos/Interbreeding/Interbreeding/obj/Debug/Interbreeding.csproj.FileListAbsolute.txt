@@ -1,0 +1,6 @@
+C:\Users\Moogie\source\repos\Interbreeding\Interbreeding\obj\Debug\Interbreeding.csprojAssemblyReference.cache
+C:\Users\Moogie\source\repos\Interbreeding\Interbreeding\obj\Debug\Interbreeding.csproj.CoreCompileInputs.cache
+C:\Users\Moogie\source\repos\Assemblies\Interbreeding.dll
+C:\Users\Moogie\source\repos\Assemblies\Interbreeding.pdb
+C:\Users\Moogie\source\repos\Interbreeding\Interbreeding\obj\Debug\Interbreeding.dll
+C:\Users\Moogie\source\repos\Interbreeding\Interbreeding\obj\Debug\Interbreeding.pdb

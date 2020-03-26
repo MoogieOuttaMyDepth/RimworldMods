@@ -1,0 +1,6 @@
+C:\Users\Moogie\source\repos\Interbreeding\Wildbreeding\bin\Debug\Wildbreeding.dll
+C:\Users\Moogie\source\repos\Interbreeding\Wildbreeding\bin\Debug\Wildbreeding.pdb
+C:\Users\Moogie\source\repos\Interbreeding\Wildbreeding\obj\Debug\Wildbreeding.csprojAssemblyReference.cache
+C:\Users\Moogie\source\repos\Interbreeding\Wildbreeding\obj\Debug\Wildbreeding.csproj.CoreCompileInputs.cache
+C:\Users\Moogie\source\repos\Interbreeding\Wildbreeding\obj\Debug\Wildbreeding.dll
+C:\Users\Moogie\source\repos\Interbreeding\Wildbreeding\obj\Debug\Wildbreeding.pdb

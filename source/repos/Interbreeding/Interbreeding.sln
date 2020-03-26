@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interbreeding", "Interbreeding\Interbreeding.csproj", "{FE1E8E87-9A53-47EB-B974-35667368885A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wildbreeding", "Wildbreeding\Wildbreeding.csproj", "{2066F971-DC6E-4110-818A-AEF209D450D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE1E8E87-9A53-47EB-B974-35667368885A}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{FE1E8E87-9A53-47EB-B974-35667368885A}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{FE1E8E87-9A53-47EB-B974-35667368885A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE1E8E87-9A53-47EB-B974-35667368885A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2066F971-DC6E-4110-818A-AEF209D450D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2066F971-DC6E-4110-818A-AEF209D450D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2066F971-DC6E-4110-818A-AEF209D450D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2066F971-DC6E-4110-818A-AEF209D450D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59177E26-C062-4725-8D18-D159C7B10C5B}
+	EndGlobalSection
+EndGlobal
