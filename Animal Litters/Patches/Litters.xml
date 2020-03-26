@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
+		<!--<success>Always</success>-->
 		<operations>
 			<li Class="PatchOperationReplace"> 
 				<xpath>/Defs/ThingDef[defName = "Pig"]/race/litterSizeCurve/points</xpath>
@@ -13,23 +13,8 @@
 				<xpath>/Defs/ThingDef[defName = "Pig"]/race/litterSizeCurve/points</xpath>
 				<value>
 					<li>(0.5, 0)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Pig"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(1, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Pig"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(5, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Pig"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(5.5, 0)</li>
 				</value>
 			</li>
@@ -43,23 +28,8 @@
 				<xpath>/Defs/ThingDef[defName = "GuineaPig"]/race/litterSizeCurve/points</xpath>
 				<value>
 					<li>(0.5, 0)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "GuineaPig"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(1, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "GuineaPig"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(6, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "GuineaPig"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(6.5, 0)</li>
 				</value>
 			</li>
@@ -73,23 +43,8 @@
 				<xpath>/Defs/ThingDef[defName = "YorkshireTerrier"]/race/litterSizeCurve/points</xpath>
 				<value>
 					<li>(0.5, 0)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "YorkshireTerrier"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(1, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "YorkshireTerrier"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(4, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "YorkshireTerrier"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(4.5, 0)</li>
 				</value>
 			</li>
@@ -103,23 +58,8 @@
 				<xpath>/Defs/ThingDef[defName = "Husky"]/race/litterSizeCurve/points</xpath>
 				<value>
 					<li>(0.5, 0)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Husky"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(1, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Husky"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(4, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Husky"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(4.5, 0)</li>
 				</value>
 			</li>
@@ -133,23 +73,8 @@
 				<xpath>/Defs/ThingDef[defName = "LabradorRetriever"]/race/litterSizeCurve/points</xpath>
 				<value>
 					<li>(0.5, 0)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "LabradorRetriever"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(1, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "LabradorRetriever"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(4, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "LabradorRetriever"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(4.5, 0)</li>
 				</value>
 			</li>
@@ -163,23 +88,8 @@
 				<xpath>/Defs/ThingDef[defName = "Cat"]/race/litterSizeCurve/points</xpath>
 				<value>
 					<li>(0.5, 0)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Cat"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(1, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Cat"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(4, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Cat"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(4.5, 0)</li>
 				</value>
 			</li>
@@ -193,23 +103,8 @@
 				<xpath>/Defs/ThingDef[defName = "Squirrel"]/race/litterSizeCurve/points</xpath>
 				<value>
 					<li>(1.5, 0)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Squirrel"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(2, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Squirrel"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(6, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Squirrel"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(6.5, 0)</li>
 				</value>
 			</li>
@@ -223,23 +118,8 @@
 				<xpath>/Defs/ThingDef[defName = "Capybara"]/race/litterSizeCurve/points</xpath>
 				<value>
 					<li>(0.5, 0)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Capybara"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(1, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Capybara"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(4, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Capybara"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(4.5, 0)</li>
 				</value>
 			</li>
@@ -253,23 +133,8 @@
 				<xpath>/Defs/ThingDef[defName = "Chinchilla"]/race/litterSizeCurve/points</xpath>
 				<value>
 					<li>(0.5, 0)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Chinchilla"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(1, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Chinchilla"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(4, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Chinchilla"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(4.5, 0)</li>
 				</value>
 			</li>
@@ -283,23 +148,8 @@
 				<xpath>/Defs/ThingDef[defName = "Boomrat"]/race/litterSizeCurve/points</xpath>
 				<value>
 					<li>(1.5, 0)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Boomrat"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(2, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Boomrat"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(5, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Boomrat"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(5.5, 0)</li>
 				</value>
 			</li>
@@ -313,23 +163,8 @@
 				<xpath>/Defs/ThingDef[defName = "Raccoon"]/race/litterSizeCurve/points</xpath>
 				<value>
 					<li>(1.5, 0)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Raccoon"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(2, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Raccoon"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(5, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Raccoon"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(5.5, 0)</li>
 				</value>
 			</li>
@@ -343,23 +178,8 @@
 				<xpath>/Defs/ThingDef[defName = "Rat"]/race/litterSizeCurve/points</xpath>
 				<value>
 					<li>(2.5, 0)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Rat"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(3, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Rat"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(8, 1)</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName = "Rat"]/race/litterSizeCurve/points</xpath>
-				<value>
 					<li>(8.5, 0)</li>
 				</value>
 			</li>
@@ -420,7 +240,7 @@
 			<li Class="PatchOperationReplace"> 
 				<xpath>/Defs/ThingDef[defName = "Cobra"]/comps/li[@Class = "CompProperties_EggLayer"]/eggCountRange</xpath>
 				<value>
-					<eggCountRange>8~15</eggCountRange>
+					<eggCountRange>6~12</eggCountRange>
 				</value>
 			</li>
 		</operations>
