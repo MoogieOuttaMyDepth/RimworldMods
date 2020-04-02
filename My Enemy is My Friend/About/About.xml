@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>My Enemy is My Friend</name>
+  <author>Moogie</author>
+    <supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>moogie.enemyfriend</packageId>
+  <description>Stops the arbitrary daily passive gain/loss of faction reputation (both good and bad), and allows you to gain reputation with Pirates and Savages.</description>
+</ModMetaData>
