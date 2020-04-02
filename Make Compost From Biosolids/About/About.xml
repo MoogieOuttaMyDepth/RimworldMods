@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Make Compost From Biosolids</name>
+	<author>Moogie</author>
+	<url></url>
+	<supportedVersions>
+	<li>1.1</li>
+	</supportedVersions>
+	<packageId>moogie.compostfrombiosolids</packageId>
+	<description><![CDATA[<size=20>What This Does</size>
+	
+Using Dub's Bad Hygiene? Using Fertile Fields? Wish you could make Compost with Biosolids? Then have I got the mod for you!
+
+]]>
+</description>
+</ModMetaData>
