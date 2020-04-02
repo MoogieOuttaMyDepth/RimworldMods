@@ -2,14 +2,16 @@
 <ModMetaData>
 	<name>Wild Breeding</name>
 	<author>Moogie</author>
-	<url></url>
 	<supportedVersions>
-	<li>1.1</li>
+		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
 	<packageId>moogie.wildbreeding</packageId>
 	<description><![CDATA[<size=20>What This Does</size>
 	
-Any male animals on the map can initiate mating. Livestock and wild animals can interbreed.
+Any male animals, either tame or wild, can initiate mating with any female of its species on the map. Livestock and wild animals can interbreed.
+
+Because wild animals can now breed, fertilized eggs no longer deteriorate outdoors.
 
 ]]>
 </description>
