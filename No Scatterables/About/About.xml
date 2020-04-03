@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>No Scatterables</name>
+	<author>Moogie</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>moogie.noscatterables</packageId>
+	<description>No more random dirt smears and little rocks that don't actually exist but are drawn on the map anyway and are ugly and laggy.</description>
+</ModMetaData>
