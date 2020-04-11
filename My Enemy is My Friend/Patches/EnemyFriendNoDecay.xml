@@ -1,46 +1,51 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Patch>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/FactionDef//goodwillDailyGain</xpath>
-	<value>
-	  <goodwillDailyGain>0</goodwillDailyGain>
-	</value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/FactionDef//goodwillDailyFall</xpath>
-	<value>
-	  <goodwillDailyFall>0</goodwillDailyFall>
-	</value>
-  </Operation>
-  <Operation Class="PatchOperationInsert">
-    <xpath>/Defs/FactionDef//permanentEnemy[.="true"]</xpath>
-	<value>
-	  <mustStartOneEnemy>true</mustStartOneEnemy>
-	</value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/FactionDef//permanentEnemy</xpath>
-	<value>
-	  <permanentEnemy>false</permanentEnemy>
-	</value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_GetFaction"]/mustBePermanentEnemy</xpath>
-	<value>
-	  <mustBePermanentEnemy>false</mustBePermanentEnemy>
-	</value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_Delay"]/node[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_RandomNode"]/nodes/li[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_GetFaction"]/mustBePermanentEnemy</xpath>
-	<value>
-	  <mustBePermanentEnemy>false</mustBePermanentEnemy>
-	</value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_IsTrue"]/node[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_Equal"]/node[@Class="QuestNode_GetFaction"]/mustBePermanentEnemy</xpath>
-	<value>
-	  <mustBePermanentEnemy>false</mustBePermanentEnemy>
-	</value>
-  </Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/FactionDef//goodwillDailyGain</xpath>
+				<value>
+					<goodwillDailyGain>0</goodwillDailyGain>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/FactionDef//goodwillDailyFall</xpath>
+				<value>
+					<goodwillDailyFall>0</goodwillDailyFall>
+				</value>
+			</li>
+			<li Class="PatchOperationInsert">
+				<xpath>/Defs/FactionDef//permanentEnemy[.="true"]</xpath>
+				<value>
+					<mustStartOneEnemy>true</mustStartOneEnemy>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/FactionDef//permanentEnemy</xpath>
+				<value>
+					<permanentEnemy>false</permanentEnemy>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_GetFaction"]/mustBePermanentEnemy</xpath>
+				<value>
+					<mustBePermanentEnemy>false</mustBePermanentEnemy>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_Delay"]/node[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_RandomNode"]/nodes/li[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_GetFaction"]/mustBePermanentEnemy</xpath>
+				<value>
+					<mustBePermanentEnemy>false</mustBePermanentEnemy>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_IsTrue"]/node[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_Equal"]/node[@Class="QuestNode_GetFaction"]/mustBePermanentEnemy</xpath>
+				<value>
+					<mustBePermanentEnemy>false</mustBePermanentEnemy>
+				</value>
+			</li>
+		</operations>
+	</Operation>
 </Patch>
