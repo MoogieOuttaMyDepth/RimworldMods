@@ -7,6 +7,9 @@
 	<li>1.1</li>
 	</supportedVersions>
 	<packageId>moogie.interbreeding</packageId>
+	<incompatibleWith>
+		<li>moogie.wildbreeding</li>
+	</incompatibleWith>
 	<description><![CDATA[<size=20>What This Does</size>
 	
 Animals can breed regardless of their faction, meaning livestock can breed with wild/visitor members of their species and vice versa. But this won't allow wild animals to mate with each other. If you want that, use Wild Breeding instead of this mod.
